@@ -1,0 +1,92 @@
+{
+  "files": {
+    "dxf_file": "data/pylons.dxf",
+    "survey_file": "data/survey.txt",
+    "output_file": "output/result.dxf",
+    "output_layer": "VERTDEV",
+    "warning_layer": "VERTDEV_WARN"
+  },
+  "matcher": {
+    "margin_inside": 0.03,
+    "margin_outside": 0.15,
+    "end_face_normal_margin_inside": 0.03,
+    "end_face_normal_margin_outside": 0.15,
+    "end_face_tangential_margin": 0.03
+  },
+  "search": {
+    "margin": 0.2
+  },
+  "text": {
+    "height": 0.2,
+    "offset": 0.08,
+    "value_level_gap": 0.08,
+    "top_text": "В",
+    "bottom_text": "Н",
+    "style": "СПДС"
+  },
+  "arrow": {
+    "length": 0.45,
+    "size": 0.1,
+    "body_width": 0.02,
+    "wall_offset": 0.06,
+    "pair_spacing": 0.25
+  },
+  "warning": {
+    "offset": 0.2,
+    "width": 0.45,
+    "height": 0.25,
+    "text_height": 0.06
+  },
+  "colors": {
+    "top": 5,
+    "bottom": 3,
+    "warning": 2
+  },
+  "geometry": {
+    "max_pylon_width": 0.5,
+    "search_wall_contours": true
+  },
+  "walls": {
+    "search_margin": 0.2
+  },
+  "transform": {
+    "enabled": false,
+    "active_key": "По умолчанию",
+    "keys": {
+      "По умолчанию": {
+        "point1_msk_x": 91.932,
+        "point1_msk_y": 199.955,
+        "point1_psk_x": -3.336,
+        "point1_psk_y": 35.285,
+        "point2_msk_x": 91.649,
+        "point2_msk_y": 158.304,
+        "point2_psk_x": 15.971,
+        "point2_psk_y": -1.622
+      }
+    }
+  },
+  "short_pylons": {
+    "enabled": false,
+    "max_length_mm": 500.0
+  },
+  "tolerance_generation": {
+    "enabled": true,
+    "limit_mm": 15.0
+  },
+  "dimensions": {
+    "enabled": true,
+    "etalon_dxf": "",
+    "style_name": "ОСНОВА",
+    "random_min_mm": -3,
+    "random_max_mm": 3,
+    "search_initial_offset_m": 0.4,
+    "search_step_m": 0.2,
+    "search_max_distance_m": 1.5,
+    "ray_count": 4,
+    "ray_length_m": 5.0,
+    "long_random_min_mm": -6,
+    "long_random_max_mm": 6,
+    "end_random_min_mm": -3,
+    "end_random_max_mm": 3
+  }
+}
